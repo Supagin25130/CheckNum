@@ -5,7 +5,7 @@ int checkNum(int,int);
 int N,num2;
 int main()
 {
-	int round = 1;
+	int round = 0;
 		cout << "###Welcome to guessing number game###" << endl;
 		srand(time(NULL));
 		int N = rand() % 10 + 1;
